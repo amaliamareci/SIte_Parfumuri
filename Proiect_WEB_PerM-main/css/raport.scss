@@ -1,0 +1,28 @@
+h2{
+    margin-left:1em;
+    font-size: xx-large;
+}
+
+.raports__container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 5em;
+    div{
+        padding:1em;
+        select{
+            padding:.5em;
+        }
+        button{
+            padding:.5em;
+        }
+    }
+}
+
+#insert_product_form{
+    margin: 1.5em;
+    font-size: x-large;
+}
+
+.form__input{
+    font-size: large;
+}

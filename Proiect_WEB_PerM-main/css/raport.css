@@ -1,0 +1,35 @@
+h2 {
+  margin-left: 1em;
+  font-size: xx-large;
+}
+
+.raports__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+
+.raports__container div {
+  padding: 1em;
+}
+
+.raports__container div select {
+  padding: .5em;
+}
+
+.raports__container div button {
+  padding: .5em;
+}
+
+#insert_product_form {
+  margin: 1.5em;
+  font-size: x-large;
+}
+
+.form__input {
+  font-size: large;
+}
+/*# sourceMappingURL=raport.css.map */

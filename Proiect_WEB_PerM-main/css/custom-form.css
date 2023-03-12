@@ -1,0 +1,76 @@
+.form-container {
+  text-align: center;
+}
+
+.form-container h3 {
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+.question-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+.img-container p {
+  text-align: center;
+  color: #606060;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  margin-left: .5rem;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background: #b97ceb;
+}
+
+.submit-button:hover {
+  background: #8b5b91;
+}
+
+/* HIDE RADIO */
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+label span {
+  display: block;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid #b97ceb;
+}
+
+@media only screen and (max-width: 400px) {
+  img {
+    width: 80px;
+  }
+}
+/*# sourceMappingURL=custom-form.css.map */

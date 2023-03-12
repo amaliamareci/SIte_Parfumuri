@@ -1,0 +1,78 @@
+@import "variables";
+.form-container {
+    text-align: center;
+    h3 {
+        margin-top: 2em;
+        font-size: 2em;
+    }
+}
+
+.question-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+.img-container {
+    p {
+        text-align: center;
+        color: rgb(96, 96, 96);
+    }
+}
+
+.submit-button {
+    margin-top: 1rem;
+    margin-left: .5rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background: $color-primary;
+}
+
+.submit-button:hover {
+    background: $color-dark;
+}
+
+
+/* HIDE RADIO */
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* IMAGE STYLES */
+
+[type=radio]+img {
+    cursor: pointer;
+}
+
+label span {
+    display: block;
+}
+
+
+/* CHECKED STYLES */
+
+[type=radio]:checked+img {
+    outline: 2px solid $color-primary;
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+        width: 80px;
+    }
+}

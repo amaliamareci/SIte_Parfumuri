@@ -1,0 +1,14 @@
+name,manufacturer,stock,new_price,old_price,quantity,category,gender,type,info_url,realease_date,ingredients,
+Black Opium,Yves Saint Laurent,5,399,599,75,orientale,femei,apa de parfum,black_opium,11.12.2012,para;flori de portocal;piper roz;cafea;iasomie;
+Ari by Ariana Grande,Ariana Grande,10,166,177,30,fructe,femei,apa de parfum,ari,11.12.2012,zmeura;para;orhidee;lacramioare;trandafir;
+Black Opium Floral Shock,Yves Saint Laurent,5,362,437,75,fructe,femei,apa de parfum,black_opium_floral_shock,11.12.2012,bergamota;lamaie;para;frezie;floare de portocal;
+Black Opium Neon,Yves Saint Laurent,10,379,545,75,orientale,femei,apa de parfum,black_opium_neon,11.12.2012,mandarina;jasmine;floare de portocal;hibiscus;
+Bright Crystal,Versace,5,279,455,50,florale,femei,apa de toaleta,bright_crystal,11.12.2012,magnolie;lotus;bujor;lemn;mosc;
+Versace Eros,Versace,10,380,410,100,orientale,barbati,apa de parfum,versace_eros,02.02.2022,mar verde;menta;lamaie;vanilie;tonka;
+Y,Yves Saint Laurent,20,555,666,200,lemnoase,barbati,parfum,yves_saint_laurent_y,03.03.2021,bergamota;mar;aldehide;ghimbir;ienupar;geranium;
+Emporio Stronger With You Intensely,Armani,11,335,480,100,orientale,barbati,apa de parfum,armani_you,03.03.2022,ienupar;piper roz;scortisoara;salvie;lavanda;
+Sauvage,Dior,13,439,460,100,aromatice,barbati,apa de toaleta,dior_sauvage,03.03.2019,bergamota;vanilie;
+La Rive Frozen,La Rive,20,30,35,50,fructe,copii,parfum,elsa,02.02.2022,flori de portocala;frezie;mar;piersica;afine;
+Minions,Air Val,12,23,27,30,altele,copii,apa de toaleta,minions,02.02.2022,piersica;afine;mandarina;
+Minnie,Air Val,13,53,62,100,altele,copii,apa de toaleta,minnie,02.02.2017,mandarine;ylang;
+Paw Patrol,EP Line,13,22,27,30,fructe,copii,apa de toaleta,paw_patrol,02.02.2016,mandarine;frezie;

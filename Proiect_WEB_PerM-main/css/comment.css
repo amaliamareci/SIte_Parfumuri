@@ -1,0 +1,55 @@
+.container {
+  max-width: 640px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.comment {
+  display: block;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.commentClicked {
+  min-height: 0px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.container textarea {
+  width: 100%;
+  border: none;
+  background: #E8E8E8;
+  padding: 5px 10px;
+  height: 50%;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 2px solid #b97ceb;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: 15px;
+}
+
+button.primaryContained {
+  background: #b97ceb;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  margin-top: 0px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+button.primaryContained:hover {
+  background: #8b5b91;
+}
+/*# sourceMappingURL=comment.css.map */

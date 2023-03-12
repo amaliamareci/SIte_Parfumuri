@@ -1,0 +1,13 @@
+.filter {
+  width: 12rem;
+}
+
+.filter h3 {
+  color: #5f5f5f;
+}
+
+label,
+#pret {
+  color: #727272;
+}
+/*# sourceMappingURL=filter.css.map */
